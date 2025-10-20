@@ -5,16 +5,17 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '*/5 * * * *' 
-
+    
+permissions:
+  contents: write # リポジトリへの書き込み権限を付与
+  
 jobs:
   update-json:
     runs-on: ubuntu-latest
     
     steps:
       - name: Checkout repository
-        # 既存コードをクローン
         uses: actions/checkout@v4
-        # ★重要: このステップでトークンを設定しないと、後のコミットができません
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           
