@@ -27,14 +27,14 @@
             "line_id": 26001,
             "num_of_cars": "8",
             "train_line_id": 26001,
-            "station_id": 918,
+            "station_id": 108,
             "section_id": null,
-            "track_number": -3,
-            "up": false,
+            "track_number": -2,
+            "up": true,
             "train_orchestration_number": "54",
             "affiliation": "急",
-            "train_number": "00412410",
-            "destination_station_code": 93
+            "train_number": "00412440",
+            "destination_station_code": 92
         }
     ],
     "delays": null
