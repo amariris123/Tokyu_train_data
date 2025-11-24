@@ -23,7 +23,7 @@
             "operation_serial_number": 1,
             "kind": "普",
             "train_kind": 2,
-            "delay_time": 90,
+            "delay_time": 105,
             "line_id": 26001,
             "num_of_cars": "6",
             "train_line_id": 26002,
