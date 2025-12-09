@@ -29,12 +29,12 @@
             "train_line_id": 26001,
             "station_id": 57,
             "section_id": null,
-            "track_number": 2,
-            "up": true,
+            "track_number": -2,
+            "up": false,
             "train_orchestration_number": "02",
             "affiliation": "相",
-            "train_number": "09812520",
-            "destination_station_code": 84
+            "train_number": "09812610",
+            "destination_station_code": 111
         }
     ],
     "delays": null
