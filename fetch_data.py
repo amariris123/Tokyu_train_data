@@ -9,17 +9,17 @@ API_BASE_URL = "https://04x5f9ykzc.execute-api.ap-northeast-1.amazonaws.com/prod
 def get_signed_url(line_key):
     api_url = f"{API_BASE_URL}?key={line_key}"
     try:
-        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {line_key} の署名付きURLを取得中･･･⏱")
+        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {line_key} の運行情報を取得中･･･⏱")
         response = requests.get(api_url, timeout=10)
         response.raise_for_status()
         data = response.json()
         return data.get('url')
     except Exception as e:
-        print(f"エラー: {line_key} の署名付きURLの取得に失敗しました: {e}")
+        print(f"エラー: {line_key} の情報取得に失敗しました: {e}")
         return None
 
 def fetch_and_save_json(target_url, output_path):
-    print(f"S3から運行JSONデータを取得中 -> {output_path}...")
+    print(f"運行情報データを取得中 -> {output_path}...")
     try:
         response = requests.get(target_url, allow_redirects=True, timeout=10)
         response.raise_for_status()
