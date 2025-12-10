@@ -1,4 +1,4 @@
-name: 🚉 Train Data Update Scheduler (Forced)
+name: Train Data Update Scheduler
 
 on:
   schedule:
@@ -8,6 +8,9 @@ on:
 jobs:
   update_data:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
     
     steps:
       - name: ⬇️ Checkout code
