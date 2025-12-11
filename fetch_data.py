@@ -4,10 +4,21 @@ from datetime import datetime
 import os
 import sys
 
-API_BASE_URL = "https://04x5f9ykzc.execute-api.ap-northeast-1.amazonaws.com/prod/external-data-url"
+API_GATEWAY_MAP = {
+    'toyoko.json': "https://04x5f9ykzc.execute-api.ap-northeast-1.amazonaws.com/prod/external-data-url",
+    'meguro.json': "https://04x5f9ykzc.execute-api.ap-northeast-1.amazonaws.com/prod/external-data-url",
+    'shinyokohama.json': "https://04x5f9ykzc.execute-api.ap-northeast-1.amazonaws.com/prod/external-data-url",
+    'dento.json': "https://fp5owad3w3.execute-api.ap-northeast-1.amazonaws.com/prod/external-data-url",
+    'oimachi.json': "https://fp5owad3w3.execute-api.ap-northeast-1.amazonaws.com/prod/external-data-url"
+}
 
 def get_signed_url(line_key):
-    api_url = f"{API_BASE_URL}?key={line_key}"
+    base_url = API_GATEWAY_MAP.get(line_key)
+    if not base_url:
+        print(f"エラー: 未知の路線キーです: {line_key}")
+        return None
+        
+    api_url = f"{base_url}?key={line_key}"
     try:
         print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {line_key} の運行情報を取得中･･･⏱")
         response = requests.get(api_url, timeout=10)
