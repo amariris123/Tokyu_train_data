@@ -23,19 +23,25 @@ jobs:
         with:
           python-version: '3.11'
           
-      - name: 📦 Install dependencies
+      - name:  Install dependencies
         run: pip install requests
         
-      - name: 🏃 Fetch Toyoko Line data
+      - name:  Fetch Toyoko Line data
         run: python fetch_data.py toyoko.json
         
-      - name: 🏃 Fetch Meguro Line data
+      - name:  Fetch Meguro Line data
         run: python fetch_data.py meguro.json
         
-      - name: 🏃 Fetch Shinyokohama Line data
+      - name:  Fetch Shinyokohama Line data
         run: python fetch_data.py shinyokohama.json
+        
+      - name:  Fetch Denentoshi Line data
+        run: python fetch_data.py dento.json
+        
+      - name:  Fetch Oimachi Line data
+        run: python fetch_data.py oimachi.json
 
-      - name: 💾 Commit and Push new data
+      - name:  Commit and Push new data
         run: |
           if git status --porcelain public/ | grep -q .; then
             git config --global user.name 'github-actions[bot]'
