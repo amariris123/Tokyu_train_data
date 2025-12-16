@@ -8,8 +8,8 @@ API_GATEWAY_MAP = {
     'toyoko.json': "https://04x5f9ykzc.execute-api.ap-northeast-1.amazonaws.com/prod/external-data-url",
     'meguro.json': "https://04x5f9ykzc.execute-api.ap-northeast-1.amazonaws.com/prod/external-data-url",
     'shinyokohama.json': "https://04x5f9ykzc.execute-api.ap-northeast-1.amazonaws.com/prod/external-data-url",
-    'dento.json': "https://fp5owad3w3.execute-api.ap-northeast-1.amazonaws.com/prod/external-data-url",
-    'oimachi.json': "https://fp5owad3w3.execute-api.ap-northeast-1.amazonaws.com/prod/external-data-url"
+    'dento.json': "https://corsproxy.io/?url=https://fp5owad3w3.execute-api.ap-northeast-1.amazonaws.com/prod/external-data-url",
+    'oimachi.json': "https://corsproxy.io/?url=https://fp5owad3w3.execute-api.ap-northeast-1.amazonaws.com/prod/external-data-url"
 }
 
 def get_signed_url(line_key):
