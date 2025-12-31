@@ -21,20 +21,20 @@
         {
             "operation_number": 44,
             "operation_serial_number": 1,
-            "kind": "普",
-            "train_kind": 2,
-            "delay_time": 1,
+            "kind": "回",
+            "train_kind": 6,
+            "delay_time": 0,
             "line_id": 26001,
             "num_of_cars": "8",
             "train_line_id": 26001,
-            "station_id": 108,
-            "section_id": null,
-            "track_number": -2,
-            "up": false,
+            "station_id": null,
+            "section_id": 15,
+            "track_number": null,
+            "up": true,
             "train_orchestration_number": "61",
             "affiliation": "急",
-            "train_number": "00442510",
-            "destination_station_code": 98
+            "train_number": "00442620",
+            "destination_station_code": 89
         }
     ],
     "delays": null
