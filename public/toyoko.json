@@ -11,7 +11,7 @@
             "train_line_id": 26001,
             "station_id": 5,
             "section_id": null,
-            "track_number": -1,
+            "track_number": 1,
             "up": true,
             "train_orchestration_number": "81",
             "affiliation": "み",
