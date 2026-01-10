@@ -17,24 +17,6 @@
             "affiliation": "都",
             "train_number": "09999900",
             "destination_station_code": 0
-        },
-        {
-            "operation_number": 204,
-            "operation_serial_number": 1,
-            "kind": "普",
-            "train_kind": 2,
-            "delay_time": 5,
-            "line_id": 26009,
-            "num_of_cars": "8",
-            "train_line_id": 26002,
-            "station_id": null,
-            "section_id": 266,
-            "track_number": null,
-            "up": false,
-            "train_orchestration_number": "21",
-            "affiliation": "急",
-            "train_number": "02042410",
-            "destination_station_code": 108
         }
     ],
     "delays": null
