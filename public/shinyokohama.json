@@ -1,4 +1,23 @@
 {
-    "trains": [],
+    "trains": [
+        {
+            "operation_number": 999,
+            "operation_serial_number": 1,
+            "kind": null,
+            "train_kind": null,
+            "delay_time": 0,
+            "line_id": 26009,
+            "num_of_cars": "8",
+            "train_line_id": 26002,
+            "station_id": 983,
+            "section_id": null,
+            "track_number": 2,
+            "up": true,
+            "train_orchestration_number": "11",
+            "affiliation": "急",
+            "train_number": "09990000",
+            "destination_station_code": 0
+        }
+    ],
     "delays": null
 }
