@@ -1,24 +1,6 @@
 {
     "trains": [
         {
-            "operation_number": 221,
-            "operation_serial_number": 1,
-            "kind": "普",
-            "train_kind": 2,
-            "delay_time": 4,
-            "line_id": 26009,
-            "num_of_cars": "8",
-            "train_line_id": 26002,
-            "station_id": 919,
-            "section_id": null,
-            "track_number": -1,
-            "up": false,
-            "train_orchestration_number": "02",
-            "affiliation": "急",
-            "train_number": "02212410",
-            "destination_station_code": 90
-        },
-        {
             "operation_number": 999,
             "operation_serial_number": 1,
             "kind": null,
