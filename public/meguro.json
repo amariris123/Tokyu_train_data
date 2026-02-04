@@ -35,6 +35,24 @@
             "affiliation": "副",
             "train_number": "00170000",
             "destination_station_code": 0
+        },
+        {
+            "operation_number": 18,
+            "operation_serial_number": 1,
+            "kind": null,
+            "train_kind": null,
+            "delay_time": 0,
+            "line_id": 26002,
+            "num_of_cars": "8",
+            "train_line_id": 26001,
+            "station_id": 918,
+            "section_id": null,
+            "track_number": 2,
+            "up": true,
+            "train_orchestration_number": "60",
+            "affiliation": "急",
+            "train_number": "00180000",
+            "destination_station_code": 0
         }
     ],
     "delays": null
