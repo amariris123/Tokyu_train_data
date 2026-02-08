@@ -19,25 +19,7 @@
             "destination_station_code": 0
         },
         {
-            "operation_number": 285,
-            "operation_serial_number": 1,
-            "kind": "回",
-            "train_kind": 6,
-            "delay_time": 0,
-            "line_id": 26002,
-            "num_of_cars": "8",
-            "train_line_id": 26002,
-            "station_id": null,
-            "section_id": 57,
-            "track_number": null,
-            "up": true,
-            "train_orchestration_number": "22",
-            "affiliation": "急",
-            "train_number": "02850220",
-            "destination_station_code": 71
-        },
-        {
-            "operation_number": 286,
+            "operation_number": 287,
             "operation_serial_number": 1,
             "kind": "回",
             "train_kind": 6,
@@ -49,10 +31,10 @@
             "section_id": null,
             "track_number": -1,
             "up": false,
-            "train_orchestration_number": "10",
+            "train_orchestration_number": "40",
             "affiliation": "急",
-            "train_number": "02860310",
-            "destination_station_code": 90
+            "train_number": "02870310",
+            "destination_station_code": 108
         },
         {
             "operation_number": 82,
@@ -64,13 +46,13 @@
             "num_of_cars": "8",
             "train_line_id": 26001,
             "station_id": null,
-            "section_id": 8,
+            "section_id": 31,
             "track_number": null,
-            "up": true,
+            "up": false,
             "train_orchestration_number": "57",
             "affiliation": "急",
-            "train_number": "00820220",
-            "destination_station_code": 78
+            "train_number": "00820310",
+            "destination_station_code": 89
         }
     ],
     "delays": null
