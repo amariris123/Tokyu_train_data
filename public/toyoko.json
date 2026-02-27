@@ -1,41 +1,4 @@
 {
-    "trains": [
-        {
-            "operation_number": 999,
-            "operation_serial_number": 1,
-            "kind": null,
-            "train_kind": null,
-            "delay_time": 0,
-            "line_id": 26001,
-            "num_of_cars": "8",
-            "train_line_id": 26001,
-            "station_id": 918,
-            "section_id": null,
-            "track_number": -2,
-            "up": true,
-            "train_orchestration_number": "62",
-            "affiliation": "急",
-            "train_number": "09999900",
-            "destination_station_code": 0
-        },
-        {
-            "operation_number": 41,
-            "operation_serial_number": 1,
-            "kind": "回",
-            "train_kind": 6,
-            "delay_time": 0,
-            "line_id": 26001,
-            "num_of_cars": "8",
-            "train_line_id": 26001,
-            "station_id": 909,
-            "section_id": null,
-            "track_number": -1,
-            "up": false,
-            "train_orchestration_number": "64",
-            "affiliation": "急",
-            "train_number": "00412610",
-            "destination_station_code": 89
-        }
-    ],
+    "trains": [],
     "delays": null
 }
