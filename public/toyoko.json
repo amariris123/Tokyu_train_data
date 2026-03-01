@@ -17,42 +17,6 @@
             "affiliation": "急",
             "train_number": "09999900",
             "destination_station_code": 0
-        },
-        {
-            "operation_number": 41,
-            "operation_serial_number": 1,
-            "kind": "回",
-            "train_kind": 6,
-            "delay_time": 0,
-            "line_id": 26001,
-            "num_of_cars": "8",
-            "train_line_id": 26001,
-            "station_id": 108,
-            "section_id": null,
-            "track_number": -1,
-            "up": false,
-            "train_orchestration_number": "42",
-            "affiliation": "急",
-            "train_number": "00412410",
-            "destination_station_code": 94
-        },
-        {
-            "operation_number": 20,
-            "operation_serial_number": 1,
-            "kind": "普",
-            "train_kind": 2,
-            "delay_time": 0,
-            "line_id": 26001,
-            "num_of_cars": "8",
-            "train_line_id": 26001,
-            "station_id": 57,
-            "section_id": null,
-            "track_number": -2,
-            "up": false,
-            "train_orchestration_number": "53",
-            "affiliation": "急",
-            "train_number": "00202410",
-            "destination_station_code": 89
         }
     ],
     "delays": null
