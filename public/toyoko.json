@@ -23,18 +23,18 @@
             "operation_serial_number": 1,
             "kind": "回",
             "train_kind": 6,
-            "delay_time": 6,
+            "delay_time": 3,
             "line_id": 26001,
             "num_of_cars": "10",
             "train_line_id": 26001,
-            "station_id": null,
-            "section_id": 42,
-            "track_number": null,
+            "station_id": 57,
+            "section_id": null,
+            "track_number": 2,
             "up": false,
             "train_orchestration_number": "02",
             "affiliation": "東",
-            "train_number": "08982510",
-            "destination_station_code": 103
+            "train_number": "08982710",
+            "destination_station_code": 89
         }
     ],
     "delays": null
